@@ -1,0 +1,7 @@
+# step 1: install qrcode 
+# setep 2: import qrcode
+Example:--
+
+import qrcode as qr
+image=qr.make("https://www.youtube.com/watch?v=yom3HewJev4&list=RDyom3HewJev4&start_radio=1")
+image.save("Pellings_song_Youtube.png")
